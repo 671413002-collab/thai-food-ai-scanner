@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+
+# Uploads and Config (Prevent uploading personal API keys)
+config.json
+uploads/*
+!uploads/.gitkeep
